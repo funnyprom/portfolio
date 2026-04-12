@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="โปรไฟล์สมัครงาน — ประสบการณ์ ทักษะ และผลงาน" />
+  <title>My Profile | โปรไฟล์สมัครงาน</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="translations.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skipLink">ข้ามไปยังเนื้อหา</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="#top" data-i18n="logo">Portfolio | อภิชาติ งามขำ</a>
+      <div class="header-right">
+        <nav id="site-nav" class="site-nav" data-i18n-aria="aria.navMain" aria-label="เมนูหลัก">
+          <ul>
+            <li><a href="#about" data-i18n="nav.about">เกี่ยวกับฉัน</a></li>
+            <li><a href="#skills" data-i18n="nav.skills">ทักษะ</a></li>
+            <li><a href="#experience" data-i18n="nav.experience">ประสบการณ์</a></li>
+            <li><a href="#education" data-i18n="nav.education">การศึกษา</a></li>
+            <li><a href="#projects" data-i18n="nav.projects">โปรเจกต์</a></li>
+            <li><a href="#contact" data-i18n="nav.contact">ติดต่อ</a></li>
+          </ul>
+        </nav>
+        <div
+          class="lang-switch"
+          role="group"
+          data-i18n-aria="aria.langPicker"
+          aria-label="เลือกภาษา"
+        >
+          <button type="button" class="lang-btn is-active" data-set-lang="th" aria-pressed="true">
+            ไทย
+          </button>
+          <button type="button" class="lang-btn" data-set-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav" data-i18n-aria="aria.navToggle" aria-label="เปิดเมนู">
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-content hero-with-photo">
+        <div class="hero-photo-wrap">
+          <img
+            class="hero-photo"
+            src="images/profile.png"
+            width="280"
+            height="280"
+            decoding="async"
+            alt="รูปโปรไฟล์ อภิชาติ งามขำ"
+            data-i18n-alt="hero.photoAlt"
+          />
+        </div>
+        <div class="hero-text-block">
+        <p class="hero-kicker" data-i18n="hero.kicker">สวัสดีครับ — ยินดีที่ได้รู้จัก</p>
+        <h1 class="hero-title" data-i18n="hero.title">นายอภิชาติ งามขำ</h1>
+        <p class="hero-role" data-i18n="hero.role">ตำแหน่งที่สนใจ: System Administrator, IT Support</p>
+        <p class="hero-summary" data-i18n="hero.summary">
+          มีความเชี่ยวชาญด้าน Infrastructure และ IT Support โดยมุ่งเน้นการออกแบบโซลูชันทางเทคโนโลยีและการพัฒนาซอฟต์แวร์ด้วย AI-assisted coding เพื่อเพิ่มประสิทธิภาพสูงสุดและสนับสนุนเป้าหมายทางธุรกิจอย่างยั่งยืน
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#contact" data-i18n="hero.btnContact">ติดต่อ</a>
+          <a class="btn btn-ghost" href="#projects" data-i18n="hero.btnWork">ดูผลงาน</a>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-title" data-i18n="section.about">เกี่ยวกับฉัน</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p data-i18n="about.p1">
+              ผมมีความหลงใหลในการเรียนรู้เทคโนโลยีสมัยใหม่ 
+              โดยเฉพาะการนำ AI Tools มาประยุกต์ใช้เพื่อเพิ่มศักยภาพในการพัฒนาซอฟต์แวร์และการแก้ไขปัญหาทางเทคนิคอย่างชาญฉลาด 
+              ผมเชื่อมั่นในการทำงานร่วมกันเป็นทีม (Teamwork) และการสื่อสารที่ชัดเจนเพื่อให้ระบบไอทีสนับสนุนการทำงานของทุกแผนกได้อย่างราบรื่น 
+              เป้าหมายระยะยาวของผมคือการก้าวขึ้นเป็น IT Solutions Leader ที่ไม่เพียงแต่ดูแลระบบให้ใช้งานได้ 
+              แต่ยังสามารถออกแบบนวัตกรรมดิจิทัลที่ช่วยลดต้นทุนและสร้างความได้เปรียบทางการแข่งขันให้กับองค์กรในยุคอุตสาหกรรม 4.0
+            </p>
+          </div>
+          <ul class="about-highlights">
+            <li>
+              <span class="highlight-label" data-i18n="about.locLabel">ที่ตั้ง</span>
+              <span data-i18n="about.locValue">ชลบุรี</span>
+            </li>
+            <li>
+              <span class="highlight-label" data-i18n="about.workLabel">ประเภทงาน</span>
+              <span data-i18n="about.workValue">Full-time</span>
+            </li>
+            <li>
+              <span class="highlight-label" data-i18n="about.langLabel">ภาษา</span>
+              <span data-i18n="about.langValue">ไทย (เจ้าของภาษา)</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <h2 class="section-title" data-i18n="section.skills">ทักษะของฉัน</h2>
+        <div class="skills-groups skills-groups--detailed">
+          <article class="skill-group">
+            <h3 class="skill-group-title" data-i18n="skills.g1.title">
+              ด้านโครงสร้างพื้นฐานและความปลอดภัย (Infrastructure &amp; Security)
+            </h3>
+            <p class="skill-group-intro" data-i18n="skills.g1.intro">กลุ่มนี้คือฐานรากที่แข็งแกร่งของคุณ:</p>
+            <ul class="skill-detail-list">
+              <li data-i18n="skills.g1.b1">
+                System Administration: เชี่ยวชาญ Windows Server (2008–2019), Active Directory, Group Policy (GPO) และ DNS/DHCP
+              </li>
+              <li data-i18n="skills.g1.b2">
+                Network Security: การจัดการ WatchGuard Firewall และ Cisco Switches (ซึ่งเป็นทักษะระดับ Enterprise)
+              </li>
+              <li data-i18n="skills.g1.b3">Virtualization: การบริหารจัดการทรัพยากรด้วย Microsoft Hyper-V และ VMware</li>
+              <li data-i18n="skills.g1.b4">
+                Data Protection: การจัดการระบบ Backup ด้วย VEEAM, Symantec Backup Exec และการดูแล QNAP/Synology NAS
+              </li>
+            </ul>
+          </article>
+
+          <article class="skill-group">
+            <h3 class="skill-group-title" data-i18n="skills.g2.title">
+              ด้านการพัฒนาซอฟต์แวร์และ AI (Software Development &amp; AI)
+            </h3>
+            <p class="skill-group-intro" data-i18n="skills.g2.intro">
+              กลุ่มนี้คือจุดแข็งที่ทำให้คุณแตกต่างจาก IT Support ทั่วไป:
+            </p>
+            <ul class="skill-detail-list">
+              <li data-i18n="skills.g2.b1">
+                AI-Assisted Development: การใช้ Cursor, Gemini, Claude เพื่อช่วยเขียนและปรับแต่งโค้ด (Prompt Engineering)
+              </li>
+              <li data-i18n="skills.g2.b2">Programming Languages: VB.NET, PHP, HTML และ CSS</li>
+              <li data-i18n="skills.g2.b3">Business Solution: การสร้างระบบ OEE Monitoring สำหรับภาคอุตสาหกรรม</li>
+            </ul>
+          </article>
+
+          <article class="skill-group">
+            <h3 class="skill-group-title" data-i18n="skills.g3.title">
+              ด้านมาตรฐานอุตสาหกรรม (Industrial Compliance)
+            </h3>
+            <p class="skill-group-intro" data-i18n="skills.g3.intro">
+              ทักษะนี้สำคัญมากสำหรับการทำงานในโรงงานหรือบริษัทที่ทำ Part รถยนต์:
+            </p>
+            <ul class="skill-detail-list">
+              <li data-i18n="skills.g3.b1">
+                Compliance Audit: ประสบการณ์จัดการระบบไอทีให้สอดคล้องกับมาตรฐาน ISO 9001 และ IATF 16949
+              </li>
+              <li data-i18n="skills.g3.b2">Technical Documentation: การจัดทำคู่มือและเอกสารประกอบมาตรฐาน ISO</li>
+            </ul>
+          </article>
+
+          <article class="skill-group">
+            <h3 class="skill-group-title" data-i18n="skills.g4.title">
+              ด้านทักษะเสริมและเครื่องมืออื่น ๆ (Tools &amp; Soft Skills)
+            </h3>
+            <p class="skill-group-intro" data-i18n="skills.g4.intro">
+              เครื่องมือสร้างสรรค์และการทำงานกับลูกค้า:
+            </p>
+            <ul class="skill-detail-list">
+              <li data-i18n="skills.g4.b1">
+                Creative Tools: Adobe Photoshop, Illustrator และ Sony Vegas Pro (สำหรับงานสื่อในองค์กร)
+              </li>
+              <li data-i18n="skills.g4.b2">
+                Project &amp; Sales: Technical Sales &amp; Pre-sales (นำเสนอ Solution และเก็บ Requirement กับลูกค้า)
+              </li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="container">
+        <h2 class="section-title" data-i18n="section.experience">ประสบการณ์ทำงาน</h2>
+        <ol class="timeline">
+          <li class="timeline-item">
+            <div class="timeline-meta">
+              <span class="timeline-date" data-i18n="exp1.date">ก.ย. 2024 — ปัจจุบัน</span>
+              <span class="timeline-org" data-i18n="exp1.org">S.P. INNOVATIVE AND TECHNOLOGY</span>
+            </div>
+            <h3 class="timeline-role" data-i18n="exp1.role">IT Implementor</h3>
+            <p class="timeline-highlight" data-i18n="exp1.highlight">
+              จุดเด่น: เป็นช่วงที่ขยับมาทำด้าน Business Solutions เต็มตัว โดยการพัฒนาและติดตั้งระบบ OEE Monitoring สำหรับโรงงานอุตสาหกรรม
+            </p>
+            <p class="timeline-achievements-label" data-i18n="exp.achievementsLabel">ผลงานหลัก</p>
+            <ul class="timeline-bullets">
+              <li data-i18n="exp1.b1">
+                ใช้ทักษะ AI-Assisted Coding ร่วมกับ VB.NET และ SQL Server เพื่อสร้างซอฟต์แวร์ที่ตอบโจทย์ลูกค้าได้รวดเร็ว
+              </li>
+              <li data-i18n="exp1.b2">ดูแลระบบให้ผ่านเกณฑ์มาตรฐานเข้มงวดอย่าง ISO 9001 และ IATF 16949</li>
+              <li data-i18n="exp1.b3">ควบหน้าที่ Technical Sales นำเสนอโปรเจกต์และปิดการขายด้วยตัวเอง</li>
+            </ul>
+          </li>
+          <li class="timeline-item">
+            <div class="timeline-meta">
+              <span class="timeline-date" data-i18n="exp2.date">ก.ย. 2019 — มี.ค. 2024</span>
+              <span class="timeline-org" data-i18n="exp2.org">MRP ENGINEERING CO., LTD.</span>
+            </div>
+            <h3 class="timeline-role" data-i18n="exp2.role">IT Support</h3>
+            <p class="timeline-highlight" data-i18n="exp2.highlight">
+              จุดเด่น: เป็นช่วงที่สร้างรากฐานด้าน Infrastructure และ System Admin อย่างเข้มข้นตลอด 4 ปีครึ่ง
+            </p>
+            <p class="timeline-achievements-label" data-i18n="exp.achievementsLabel">ผลงานหลัก</p>
+            <ul class="timeline-bullets">
+              <li data-i18n="exp2.b1">บริหารจัดการ Windows Server (2008–2019) และระบบ Virtualization (Hyper-V / VMware)</li>
+              <li data-i18n="exp2.b2">
+                วางระบบ Network และความปลอดภัยด้วย Cisco และ WatchGuard รวมถึงระบบ CCTV ขนาดใหญ่
+              </li>
+              <li data-i18n="exp2.b3">
+                ดูแลระบบ ERP (MAC5-Legacy) และจัดการ Backup ข้อมูลบริษัทด้วย VEEAM และ NAS (Synology)
+              </li>
+              <li data-i18n="exp2.b4">เริ่มทำ Web Development และ Creative Media ให้กับบริษัท</li>
+            </ul>
+          </li>
+          <li class="timeline-item">
+            <div class="timeline-meta">
+              <span class="timeline-date" data-i18n="exp3.date">ม.ค. — พ.ค. 2019</span>
+              <span class="timeline-org" data-i18n="exp3.org">DAIKIN INDUSTRIES (THAILAND) LTD.</span>
+            </div>
+            <h3 class="timeline-role" data-i18n="exp3.role">IT Helpdesk Intern</h3>
+            <p class="timeline-highlight" data-i18n="exp3.highlight">
+              จุดเด่น: เริ่มต้นสายงานในองค์กรระดับสากล (Global Company)
+            </p>
+            <p class="timeline-achievements-label" data-i18n="exp.achievementsLabel">ผลงานหลัก</p>
+            <ul class="timeline-bullets">
+              <li data-i18n="exp3.b1">
+                เรียนรู้พื้นฐานการทำ Technical Troubleshooting และการจัดการ Workstation ในระบบ Windows 10
+              </li>
+              <li data-i18n="exp3.b2">จัดทำคู่มือเทคนิค (Technical Manuals) สำหรับการติดตั้งระบบภายในบริษัท</li>
+              <li data-i18n="exp3.b3">
+                ฝึกฝนการให้ความช่วยเหลือผู้ใช้งาน (User Support) ในสภาพแวดล้อมโรงงานอุตสาหกรรมจริง
+              </li>
+            </ul>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="education">
+      <div class="container">
+        <h2 class="section-title" data-i18n="section.education">การศึกษา</h2>
+        <ul class="education-list">
+          <li class="education-item">
+            <span class="education-degree" data-i18n="edu1.degree">มัธยมศึกษา</span>
+            <span class="education-school" data-i18n="edu1.school">โรงเรียนพนัสพิทยาคาร</span>
+            <div class="education-meta">
+              <span class="education-year" data-i18n="edu1.year">2011 — 2013</span>
+              <span class="education-gpa" data-i18n="edu1.gpa">เกรดเฉลี่ย: 2.84/4.00</span>
+            </div>
+          </li>
+          <li class="education-item">
+            <span class="education-degree" data-i18n="edu2.degree">ปริญญาตรี — เทคโนโลยีการศึกษา</span>
+            <span class="education-school" data-i18n="edu2.school">มหาวิทยาลัยบูรพา</span>
+            <div class="education-meta">
+              <span class="education-year" data-i18n="edu2.year">2015 — 2019</span>
+              <span class="education-gpa" data-i18n="edu2.gpa">เกรดเฉลี่ย: 3.36/4.00</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section-title" data-i18n="section.projects">โปรเจกต์ / ผลงาน</h2>
+        <div class="project-grid">
+          <article class="project-card">
+            <h3 class="project-name" data-i18n="proj1.title">Work Management System</h3>
+            <p class="project-desc" data-i18n="proj1.desc">
+              โปรเจกต์แรก — ระบบจัดการและติดตามงาน พร้อมฟอร์ม Purchase Request (PR) แดชบอร์ดสถิติและปฏิทิน
+              ข้อมูลเชื่อม SQL Server · ใช้ React 18, TypeScript, Vite, Tailwind CSS ฝั่งหน้า และ Node.js, Express ฝั่ง API
+            </p>
+            <div class="project-links">
+              <a href="https://github.com/funnyprom/work-management-system" rel="noopener noreferrer" data-i18n="proj1.gh">GitHub</a>
+              <a href="https://github.com/funnyprom/work-management-system/blob/main/README.md" rel="noopener noreferrer" data-i18n="proj1.readme">README</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <h3 class="project-name" data-i18n="proj2.title">Lucky Draw</h3>
+            <p class="project-desc" data-i18n="proj2.desc">
+              ระบบสุ่มผู้โชคดีบนเว็บ — วงล้อแอนิเมชัน รางวัลใหญ่ Grand Prize จัดการรายชื่อ ดูผลรางวัล และ Confetti
+              · Python Flask · SQLite + SQLAlchemy
+            </p>
+            <div class="project-links">
+              <a href="https://github.com/funnyprom/LuckyDraw" rel="noopener noreferrer" data-i18n="proj2.gh">GitHub</a>
+              <a href="https://github.com/funnyprom/LuckyDraw/blob/main/README.md" rel="noopener noreferrer" data-i18n="proj2.readme">README</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <h3 class="project-name" data-i18n="proj3.title">Nexus AI Trading System</h3>
+            <p class="project-desc" data-i18n="proj3.desc">
+              ระบบเทรดอัตโนมัติด้วย AI แยกเอนจิน วิเคราะห์ / ตัดสินใจ / ส่งคำสั่ง / ควบคุมความเสี่ยง · FastAPI · React + TypeScript ·
+              PostgreSQL · Redis · Telegram · Docker
+            </p>
+            <div class="project-links">
+              <a href="https://github.com/funnyprom/Bot_Trad" rel="noopener noreferrer" data-i18n="proj3.gh">GitHub</a>
+              <a href="https://github.com/funnyprom/Bot_Trad/blob/main/README.md" rel="noopener noreferrer" data-i18n="proj3.readme">README</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <h3 class="project-name" data-i18n="proj4.title">File Finder</h3>
+            <p class="project-desc" data-i18n="proj4.desc">
+              เว็บแอปค้นหาไฟล์ที่มีเนื้อหาคล้ายกันบนเซิร์ฟเวอร์ (TF-IDF / Jaccard) รองรับ PDF, DOC, DOCX, TXT และ Network Path
+              · Flask
+            </p>
+            <div class="project-links">
+              <a href="https://github.com/funnyprom/File-Finder" rel="noopener noreferrer" data-i18n="proj4.gh">GitHub</a>
+              <a href="https://github.com/funnyprom/File-Finder/blob/main/README.md" rel="noopener noreferrer" data-i18n="proj4.readme">README</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <h3 class="project-name" data-i18n="proj5.title">MAIN-WEB</h3>
+            <p class="project-desc" data-i18n="proj5.desc">
+              โปรเจกต์เว็บพื้นฐาน — หน้าเว็บสแตติกด้วย HTML, CSS และ JavaScript
+            </p>
+            <div class="project-links">
+              <a href="https://github.com/funnyprom/MAIN-WEB" rel="noopener noreferrer" data-i18n="proj5.gh">GitHub</a>
+              <a href="https://github.com/funnyprom/MAIN-WEB/blob/main/index.html" rel="noopener noreferrer" data-i18n="proj5.view">ดูโค้ด</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt section-contact" id="contact">
+      <div class="container">
+        <h2 class="section-title" data-i18n="section.contact">ติดต่อ</h2>
+        <p class="contact-intro" data-i18n="contact.intro">
+          พร้อมพูดคุยเกี่ยวกับโอกาสร่วมงาน — ติดต่อได้ทางช่องทางด้านล่าง
+        </p>
+        <ul class="contact-list">
+          <li>
+            <span class="contact-label" data-i18n="contact.emailLabel">อีเมล</span>
+            <a href="mailto:aphichat_ngamkham@hotmail.com">aphichat_ngamkham@hotmail.com</a>
+          </li>
+          <li>
+            <span class="contact-label" data-i18n="contact.lineLabel">Line</span>
+            <a href="https://line.me/ti/p/~funnyprom" rel="noopener noreferrer">funnyprom</a>
+          </li>
+          <li>
+            <span class="contact-label" data-i18n="contact.githubLabel">GitHub</span>
+            <a href="https://github.com/funnyprom" rel="noopener noreferrer">github.com/funnyprom</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>
+        © <span id="year"></span>
+        <span data-i18n="footer.line1">อภิชาติ งามขำ — จัดทำเพื่อใช้สมัครงาน</span>
+      </p>
+      <p class="footer-note">
+        <span data-i18n="footer.hosted">โฮสต์บน</span>
+        <a href="https://pages.github.com/" rel="noopener noreferrer">GitHub Pages</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
