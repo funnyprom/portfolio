@@ -97,6 +97,81 @@
     });
   }
 
+  function initCertModal() {
+    var modal = document.getElementById("cert-modal");
+    if (!modal) return;
+
+    var imgEl = modal.querySelector(".cert-modal__img");
+    var lastFocus = null;
+
+    function openFromCard(card) {
+      if (!card || !imgEl) return;
+      var src = card.getAttribute("data-cert-src");
+      if (!src) return;
+
+      lastFocus = document.activeElement;
+      var thumbImg = card.querySelector(".certificate-thumb img");
+      var alt = thumbImg ? thumbImg.getAttribute("alt") || "" : "";
+
+      imgEl.hidden = false;
+      imgEl.src = src;
+      imgEl.alt = alt;
+
+      modal.removeAttribute("hidden");
+      modal.setAttribute("aria-hidden", "false");
+      document.body.classList.add("cert-modal-open");
+
+      var closeBtn = modal.querySelector(".cert-modal__close");
+      if (closeBtn) {
+        window.setTimeout(function () {
+          closeBtn.focus();
+        }, 0);
+      }
+    }
+
+    function closeModal() {
+      if (modal.hasAttribute("hidden")) return;
+
+      imgEl.removeAttribute("src");
+      imgEl.removeAttribute("alt");
+      imgEl.hidden = true;
+
+      modal.setAttribute("hidden", "");
+      modal.setAttribute("aria-hidden", "true");
+      document.body.classList.remove("cert-modal-open");
+
+      if (lastFocus && typeof lastFocus.focus === "function") {
+        lastFocus.focus();
+      }
+      lastFocus = null;
+    }
+
+    var grid = document.querySelector(".certificate-grid");
+    if (grid) {
+      grid.addEventListener("click", function (e) {
+        var trigger = e.target.closest(".certificate-thumb, .certificate-link");
+        if (!trigger || !grid.contains(trigger)) return;
+        var card = trigger.closest(".certificate-card");
+        if (!card) return;
+        e.preventDefault();
+        openFromCard(card);
+      });
+    }
+
+    modal.querySelectorAll("[data-cert-modal-close]").forEach(function (el) {
+      el.addEventListener("click", function (e) {
+        e.preventDefault();
+        closeModal();
+      });
+    });
+
+    document.addEventListener("keydown", function (e) {
+      if (e.key !== "Escape") return;
+      if (modal.hasAttribute("hidden")) return;
+      closeModal();
+    });
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
     var yearEl = document.getElementById("year");
     if (yearEl) {
@@ -105,5 +180,6 @@
 
     initLang();
     initNav();
+    initCertModal();
   });
 })();

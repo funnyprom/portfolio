@@ -18,11 +18,12 @@ window.PORTFOLIO_I18N = {
     "nav.skills": "ทักษะ",
     "nav.experience": "ประสบการณ์",
     "nav.education": "การศึกษา",
+    "nav.certificates": "ใบรับรอง",
     "nav.projects": "โปรเจกต์",
     "nav.contact": "ติดต่อ",
 
     "hero.kicker": "สวัสดีครับ — ยินดีที่ได้รู้จัก",
-    "hero.title": "นายอภิชาติ งามขำ",
+    "hero.title": "นาย อภิชาติ งามขำ",
     "hero.role": "ตำแหน่งที่สนใจ: System Administrator, IT Support",
     "hero.summary":
       "มีความเชี่ยวชาญด้าน Infrastructure และ IT Support โดยมุ่งเน้นการออกแบบโซลูชันทางเทคโนโลยีและการพัฒนาซอฟต์แวร์ด้วย AI-assisted coding เพื่อเพิ่มประสิทธิภาพสูงสุดและสนับสนุนเป้าหมายทางธุรกิจอย่างยั่งยืน",
@@ -49,7 +50,7 @@ window.PORTFOLIO_I18N = {
     "skills.g1.b1":
       "System Administration: เชี่ยวชาญ Windows Server (2008–2019), Active Directory, Group Policy (GPO) และ DNS/DHCP",
     "skills.g1.b2":
-      "Network Security: การจัดการ WatchGuard Firewall และ Cisco Switches (ซึ่งเป็นทักษะระดับ Enterprise)",
+      "Network Security: การจัดการ WatchGuard Firewall และ Cisco Switches",
     "skills.g1.b3": "Virtualization: การบริหารจัดการทรัพยากรด้วย Microsoft Hyper-V และ VMware",
     "skills.g1.b4":
       "Data Protection: การจัดการระบบ Backup ด้วย VEEAM, Symantec Backup Exec และการดูแล QNAP/Synology NAS",
@@ -111,14 +112,38 @@ window.PORTFOLIO_I18N = {
       "ฝึกฝนการให้ความช่วยเหลือผู้ใช้งาน (User Support) ในสภาพแวดล้อมโรงงานอุตสาหกรรมจริง",
 
     "section.education": "การศึกษา",
-    "edu2.degree": "ปริญญาตรี — เทคโนโลยีการศึกษา",
-    "edu2.school": "มหาวิทยาลัยบูรพา",
-    "edu2.year": "2015 — 2019",
-    "edu2.gpa": "เกรดเฉลี่ย: 3.36/4.00",
     "edu1.degree": "มัธยมศึกษา",
     "edu1.school": "โรงเรียนพนัสพิทยาคาร",
     "edu1.year": "2011 — 2013",
     "edu1.gpa": "เกรดเฉลี่ย: 2.84/4.00",
+    "edu2.degree": "ปริญญาตรี — เทคโนโลยีการศึกษา",
+    "edu2.school": "มหาวิทยาลัยบูรพา",
+    "edu2.year": "2015 — 2019",
+    "edu2.gpa": "เกรดเฉลี่ย: 3.36/4.00",
+
+    "section.certificates": "ใบรับรอง / Certificate",
+    "certificates.intro":
+      "ใบรับรองและหลักสูตรที่เกี่ยวข้องกับงานไอที มาตรฐาน และการพัฒนาทักษะ",
+    "cert.open": "เปิดไฟล์",
+    "cert.modal.heading": "ดูใบรับรอง",
+    "cert.modal.close": "ปิด",
+    "cert.modal.closeAria": "ปิดหน้าต่างดูใบรับรอง",
+    "cert.iso.title": "ISO 9001 / 14001 / 45001 — การตรวจประเมินภายใน",
+    "cert.iso.alt": "ใบรับรอง ISO 9001 / 14001 / 45001",
+    "cert.borntodev.title": "BorntoDev — ChatGPT for Developers",
+    "cert.borntodev.alt": "ใบรับรองหลักสูตร ChatGPT for Developers",
+    "cert.c29018.title": "ใบรับรองการอบรม / หลักสูตรออนไลน์",
+    "cert.c29018.alt": "ภาพใบรับรองการอบรม",
+    "cert.c9151.title": "ใบรับรองการอบรม / หลักสูตรออนไลน์",
+    "cert.c9151.alt": "ภาพใบรับรองการอบรม",
+    "cert.accelerate.title": "Accelerated program — certificate",
+    "cert.accelerate.alt": "ภาพใบรับรองหลักสูตร",
+    "cert.networks.title": "Introduction to Computer Networks and the Internet",
+    "cert.networks.alt": "ใบรับรองหลักสูตรเครือข่ายคอมพิวเตอร์และอินเทอร์เน็ต",
+    "cert.seo.title": "Professional SEO (PE22-66)",
+    "cert.seo.alt": "ใบรับรองหลักสูตร SEO มืออาชีพ",
+    "cert.udemy.title": "Udemy — course certificate",
+    "cert.udemy.alt": "ใบรับรองหลักสูตรจาก Udemy",
 
     "section.projects": "โปรเจกต์ / ผลงาน",
     "proj1.title": "Work Management System",
@@ -148,7 +173,7 @@ window.PORTFOLIO_I18N = {
     "proj5.title": "MAIN-WEB",
     "proj5.desc": "โปรเจกต์เว็บพื้นฐาน — หน้าเว็บสแตติกด้วย HTML, CSS และ JavaScript",
     "proj5.gh": "GitHub",
-    "proj5.view": "ดูโค้ด",
+    "proj5.readme": "README",
 
     "section.contact": "ติดต่อ",
     "contact.intro":
@@ -176,6 +201,7 @@ window.PORTFOLIO_I18N = {
     "nav.skills": "Skills",
     "nav.experience": "Experience",
     "nav.education": "Education",
+    "nav.certificates": "Certificates",
     "nav.projects": "Projects",
     "nav.contact": "Contact",
 
@@ -207,7 +233,7 @@ window.PORTFOLIO_I18N = {
     "skills.g1.b1":
       "System administration: Windows Server (2008–2019), Active Directory, Group Policy (GPO), and DNS/DHCP",
     "skills.g1.b2":
-      "Network security: WatchGuard Firewall and Cisco switches (enterprise-grade operations)",
+      "Network security: WatchGuard Firewall and Cisco switches",
     "skills.g1.b3": "Virtualization: Microsoft Hyper-V and VMware for resource management",
     "skills.g1.b4":
       "Data protection: Backup with VEEAM and Symantec Backup Exec; administration of QNAP/Synology NAS",
@@ -268,14 +294,38 @@ window.PORTFOLIO_I18N = {
     "exp3.b3": "Practiced user support in a real factory environment.",
 
     "section.education": "Education",
-    "edu2.degree": "Bachelor’s — Educational Technology",
-    "edu2.school": "Burapha University",
-    "edu2.year": "2015 — 2019",
-    "edu2.gpa": "GPA: 3.36/4.00",
     "edu1.degree": "High School",
     "edu1.school": "Panatpitayakarn School",
     "edu1.year": "2011 — 2013",
     "edu1.gpa": "GPA: 2.84/4.00",
+    "edu2.degree": "Bachelor’s — Educational Technology",
+    "edu2.school": "Burapha University",
+    "edu2.year": "2015 — 2019",
+    "edu2.gpa": "GPA: 3.36/4.00",
+
+    "section.certificates": "Certificates",
+    "certificates.intro":
+      "Professional certifications and training related to IT, standards, and continuous learning.",
+    "cert.open": "Open file",
+    "cert.modal.heading": "Certificate preview",
+    "cert.modal.close": "Close",
+    "cert.modal.closeAria": "Close certificate dialog",
+    "cert.iso.title": "ISO 9001 / 14001 / 45001 — internal audit",
+    "cert.iso.alt": "ISO 9001 / 14001 / 45001 certificate scan",
+    "cert.borntodev.title": "BorntoDev — ChatGPT for Developers",
+    "cert.borntodev.alt": "ChatGPT for Developers certificate",
+    "cert.c29018.title": "Training / online course certificate",
+    "cert.c29018.alt": "Certificate scan",
+    "cert.c9151.title": "Training / online course certificate",
+    "cert.c9151.alt": "Certificate scan",
+    "cert.accelerate.title": "Accelerated program — certificate",
+    "cert.accelerate.alt": "Course certificate",
+    "cert.networks.title": "Introduction to Computer Networks and the Internet",
+    "cert.networks.alt": "Introduction to Computer Networks and the Internet — certificate",
+    "cert.seo.title": "Professional SEO (PE22-66)",
+    "cert.seo.alt": "Professional SEO certificate",
+    "cert.udemy.title": "Udemy — course certificate",
+    "cert.udemy.alt": "Udemy course certificate",
 
     "section.projects": "Projects",
     "proj1.title": "Work Management System",
@@ -305,7 +355,7 @@ window.PORTFOLIO_I18N = {
     "proj5.title": "MAIN-WEB",
     "proj5.desc": "Simple static website built with HTML, CSS, and JavaScript.",
     "proj5.gh": "GitHub",
-    "proj5.view": "View source",
+    "proj5.readme": "README",
 
     "section.contact": "Contact",
     "contact.intro":
