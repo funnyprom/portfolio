@@ -495,6 +495,36 @@ a:hover {
   line-height: 1.55;
 }
 
+.ai-tools-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0 0 14px;
+}
+
+.ai-tool-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 7px 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(61, 214, 200, 0.35);
+  background: rgba(61, 214, 200, 0.1);
+  color: var(--accent);
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.ai-tool-logo {
+  width: 16px;
+  height: 16px;
+  display: block;
+  flex: 0 0 16px;
+}
+
 .skill-detail-list {
   margin: 0;
   padding-left: 1.25em;

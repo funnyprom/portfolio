@@ -1,0 +1,29 @@
+﻿Aphichat Ngamkham (FunNyProM)
+System Administrator / IT Support / Solutions Developer
+
+Email: aphichat_ngamkham@hotmail.com
+GitHub: https://github.com/funnyprom
+Line: funnyprom
+Location: Chonburi, Thailand
+
+[SUMMARY]
+
+IT Specialist with 7+ years of experience in Infrastructure and Technical Support.
+
+Expert in AI-assisted coding (Cursor, Gemini, Claude) for rapid software delivery and complex problem-solving.
+
+Strong background in Windows Server (2008-2019), Virtualization (Hyper-V/VMware), Network Security (Cisco/WatchGuard), and Backup Systems (VEEAM/QNAP).
+
+Experienced in maintaining IT standards for ISO 9001 and IATF 16949 compliance.
+
+[CORE SKILLS]
+
+Servers: Windows Server 2008-2019, Active Directory, Group Policy, DNS/DHCP.
+
+Networking: Cisco Switches, WatchGuard Firewalls, TCP/IP, VLAN, CCTV.
+
+Development: AI-Assisted Development, VB.NET, PHP, SQL Server, HTML/CSS.
+
+Compliance: ISO 9001, IATF 16949 (Quality Management Systems).
+
+Tools: Cursor, Gemini, Claude, VEEAM, QNAP NAS, Adobe Creative Suite.

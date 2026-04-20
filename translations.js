@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Thai / English copy for the portfolio.
  * Strings are curated for natural, professional job-application tone (human-style localization).
  */
@@ -27,7 +27,8 @@ window.PORTFOLIO_I18N = {
     "hero.role": "ตำแหน่งที่สนใจ: System Administrator, IT Support",
     "hero.summary":
       "มีความเชี่ยวชาญด้าน Infrastructure และ IT Support โดยมุ่งเน้นการออกแบบโซลูชันทางเทคโนโลยีและการพัฒนาซอฟต์แวร์ด้วย AI-assisted coding เพื่อเพิ่มประสิทธิภาพสูงสุดและสนับสนุนเป้าหมายทางธุรกิจอย่างยั่งยืน",
-    "hero.btnContact": "ติดต่อ",
+    "hero.btnContact": "ติดต่อฉัน",
+    "hero.btnDownloadCv": "Download CV",
     "hero.btnWork": "ดูผลงาน",
     "hero.photoAlt":
       "รูปโปรไฟล์ — ภาพถ่ายสไตล์ดับเบิลเอ็กซ์โพเชอร์ ทิวทัศน์ภูเขาและแม่น้ำในซิลูเอต",
@@ -57,6 +58,10 @@ window.PORTFOLIO_I18N = {
 
     "skills.g2.title": "ด้านการพัฒนาซอฟต์แวร์และ AI (Software Development & AI)",
     "skills.g2.intro": "กลุ่มนี้คือจุดแข็งที่ทำให้คุณแตกต่างจาก IT Support ทั่วไป:",
+    "skills.g2.toolsAria": "เครื่องมือ AI ที่ใช้งาน",
+    "skills.g2.tool.cursor": "Cursor",
+    "skills.g2.tool.gemini": "Gemini",
+    "skills.g2.tool.claude": "Claude",
     "skills.g2.b1":
       "AI-Assisted Development: การใช้ Cursor, Gemini, Claude เพื่อช่วยเขียนและปรับแต่งโค้ด (Prompt Engineering)",
     "skills.g2.b2": "Programming Languages: VB.NET, PHP, HTML และ CSS",
@@ -210,7 +215,8 @@ window.PORTFOLIO_I18N = {
     "hero.role": "Roles of interest: System Administrator, IT Support",
     "hero.summary":
       "I specialize in infrastructure and IT support, with a focus on designing technology solutions and developing software through AI-assisted coding to maximize efficiency and support sustainable business outcomes.",
-    "hero.btnContact": "Contact",
+    "hero.btnContact": "Contact Me",
+    "hero.btnDownloadCv": "Download CV",
     "hero.btnWork": "View work",
     "hero.photoAlt":
       "Profile photo — artistic double-exposure portrait with a mountain landscape inside the silhouette",
@@ -240,6 +246,10 @@ window.PORTFOLIO_I18N = {
 
     "skills.g2.title": "Software Development & AI",
     "skills.g2.intro": "What sets this profile apart from general IT support:",
+    "skills.g2.toolsAria": "AI tools used",
+    "skills.g2.tool.cursor": "Cursor",
+    "skills.g2.tool.gemini": "Gemini",
+    "skills.g2.tool.claude": "Claude",
     "skills.g2.b1":
       "AI-assisted development: Cursor, Gemini, and Claude for writing and refining code (prompt engineering)",
     "skills.g2.b2": "Programming languages: VB.NET, PHP, HTML, and CSS",
